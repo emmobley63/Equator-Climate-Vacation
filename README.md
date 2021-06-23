@@ -1,11 +1,21 @@
-<h1>Equator Climate Vacation</h1>
+<h1>Equator Weather Vacation</h1>
 
-<h2>WEATHERPY</h2>
-<p>In this project we were wanted to explore the relationship of distance from the equator to the weather in that area. We used four main metrics: Temperature(max), Humidity (%), Cloudiness(%), and Wind Speed(mph).
+<p>In this project I wanted to explore the relationship of distance from the equator to the weather in order to find our ideal vacation spot using python, OpenWeatherAPI and Google Maps API. I use NumPy to generate random coordinates and CityPy to find the nearest city. I then used the OpenWeather API to pull the weather report for that day 1-18-21. I graphed and calculated the correlation of the different weather conditions and the latitude. In order to find the ideal vacation spot, I filtered by the optimal weather conditions and used Google Maps API to find the nearest hotel. 
+  
+ Equator Weather Vacation also functions as an example as to how one might go about finding their next international rental property investment or find the ideal location for a solar/wind energy farm. For a vacation property one could use this method and cross reference the CAP rate to match the best financial investment. One could find cities with the best solar/energy farm climate for optimized energy generation. They could then cross reference the cost of land to find an initial list of potential investment areas. Obviously, there are many more nuances in finanial investments but this coulsd provide an intial list of possibilities. My study is only the weather report for one day but OpenWeather API has historical weather data as well. 
+ 
+  The project had two parts: 
+ 1) Equator and Weather: Generated a random sample of cities and a study of the relationship between their weather vs their latitude.
+ 2) Vacation: We overlay a heatmap for visual representation of humidity using google maps API. Generate a list of cities that fit the input of ideal conditions and find the nearest hotel. 
+  I used four main metrics: Temperature(max), Humidity (%), Cloudiness(%), and Wind Speed(mph)</p>
 
-We used numpy to assign random latitude and longitude points. We then used citipy to find the nearest city to our randomly generated coordinates. We then quieried the OpenWeather API to give us the current weather metrics for 1-18-21 and added them to our dataframe. Then we ran scatterplots of our cities metrics against their latitudes. Since we are finding the nearest "city" to our random coordinates we must state that there are less cities in and around the South Pole and Southern waters. This does skew our dataset to not account for much south of -60 latitude.
+<h2>Equator and Weather</h2>
 
-First, we plotted Temperature, whose max temperatures were around or a little below the equator. This is what we would expect considering the analysis was ran in the middle of december when the sun shines the most directly on this part of the earth. 
+<h3>Dataset</h3>
+<p>I used numpy to assign random latitude and longitude points. I then used citipy to find the nearest city to the randomly generated coordinates. I then quieried the OpenWeather API to give us the current weather metrics for 1-18-21 and added them to the dataframe. Since I was finding the nearest "city" to the random coordinates I had state that there are less cities in and around the South Pole and Southern waters. This does skew my dataset to not account for much south of -60 latitude.</p>
+
+<h3>Exploring the Relationships</h3>
+<p>First, I plotted Temperature, whose max temperatures were around or a little below the equator. This is what we would expect considering the analysis was ran in the middle of december when the sun shines the most directly on this part of the earth. 
 
 Second was humidity. between -40 to 40 latitude there seems to be a spread from 20 to 100 percent humidity, with most of the spread being above 50%. Above 40 latitude the humidity stays above 50. This is surprising.
 
