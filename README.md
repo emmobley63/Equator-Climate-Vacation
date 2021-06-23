@@ -1,4 +1,4 @@
-# python-api-challenge
+<h1>Equator Climate Vacation<h1>
 
 WEATHERPY
 In this project we were wanted to explore the relationship of distance from the equator to the weather in that area. We used four main metrics: Temperature(max), Humidity (%), Cloudiness(%), and Wind Speed(mph). 
