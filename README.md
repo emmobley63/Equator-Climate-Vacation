@@ -20,7 +20,7 @@
 <p>First, I plotted Temperature, whose max temperatures were around or a little below the equator. This is what we would expect considering the analysis was ran in the middle of december when the sun shines the most directly on this part of the earth. 
 
 Second was humidity. between -40 to 40 latitude there seemed to be a spread from 20 to 100 percent humidity, with most of the spread being above 50%. Above 40 latitude the humidity stayed above 50. This was surprising.
-
+<img href="https://github.com/emmobley63/Equator-Weather-Vacation/blob/main/Images/Humidity_Latitude_1-18-21.png">
 Third was cloudiness. There was a very even spread across the latitudes.
 
 Fourth was Wind Speed. This was also a pretty even distribution.
