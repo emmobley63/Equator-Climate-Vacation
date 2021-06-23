@@ -1,7 +1,7 @@
-<h1>Equator Climate Vacation<h1>
+<h1>Equator Climate Vacation</h1>
 
-WEATHERPY
-In this project we were wanted to explore the relationship of distance from the equator to the weather in that area. We used four main metrics: Temperature(max), Humidity (%), Cloudiness(%), and Wind Speed(mph). 
+<h2>WEATHERPY</h2>
+<p>In this project we were wanted to explore the relationship of distance from the equator to the weather in that area. We used four main metrics: Temperature(max), Humidity (%), Cloudiness(%), and Wind Speed(mph).
 
 We used numpy to assign random latitude and longitude points. We then used citipy to find the nearest city to our randomly generated coordinates. We then quieried the OpenWeather API to give us the current weather metrics for 1-18-21 and added them to our dataframe. Then we ran scatterplots of our cities metrics against their latitudes. Since we are finding the nearest "city" to our random coordinates we must state that there are less cities in and around the South Pole and Southern waters. This does skew our dataset to not account for much south of -60 latitude.
 
@@ -23,10 +23,10 @@ North and South Humidity v Latitude: North has a weaker correlation at 0.42 whil
 
 North and South Cloudiness v Latitude: There is very little correlation bewtween these metrics and the latitude. North is 0.15 and South is 0.23.
 
-North and South Wind Speed v Latitude: There is no correlation in the North with wind speed and latitude. The south has very little correlation at -0.20
+North and South Wind Speed v Latitude: There is no correlation in the North with wind speed and latitude. The south has very little correlation at -0.20>
 
 
-VACATIONPY
-We wanted to use our dataset to create a visual representation of humidity using google's Places API. We created a heat_layer and added it to google maps figure.
+<h2>VACATIONPY</h2>
+<p>We wanted to use our dataset to create a visual representation of humidity using google's Places API. We created a heat_layer and added it to google maps figure.
 
-We then thought we could find ideal vacation spots for ourselves by narrowing down the weather data to our preferred weather. We created an ideal dataframe with temperature less than 100 and more than 75, wind speed at less than 10 mph, cloudiness less than 5%. We left humidity open because we enjoy all humidities. Then we wanted tot find a hotel close to our narrowed locations. We quieried Google's nearby searches to find a list of the nearest hotels. We took the first one and add the hotel name and coordinates to the df. Then, we used citipy to grab the city name and country of the hotel to put it into the dataframe. We then placed them along with our heatmap on the google map.
+We then thought we could find ideal vacation spots for ourselves by narrowing down the weather data to our preferred weather. We created an ideal dataframe with temperature less than 100 and more than 75, wind speed at less than 10 mph, cloudiness less than 5%. We left humidity open because we enjoy all humidities. Then we wanted tot find a hotel close to our narrowed locations. We quieried Google's nearby searches to find a list of the nearest hotels. We took the first one and add the hotel name and coordinates to the df. Then, we used citipy to grab the city name and country of the hotel to put it into the dataframe. We then placed them along with our heatmap on the google map.</p>
