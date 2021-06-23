@@ -17,25 +17,88 @@
 <br>
 
 <h3>Exploring the Relationships</h3>
-<p>First, I plotted Temperature, whose max temperatures were around or a little below the equator. This is what we would expect considering the analysis was ran in the middle of december when the sun shines the most directly on this part of the earth. 
+<table>
+  <tr>
+    <td>
+      <p>First, I plotted Temperature, whose max temperatures were around or a little below the equator. This is what we would expect considering the analysis was ran in the middle of december when the sun shines the most directly on this part of the earth.
+      <p>
+    </td>
+    <td colspan="2">
+      <img src="https://github.com/emmobley63/Equator-Weather-Vacation/blob/main/Images/Temperature_Latitude_1-18-21.png">
+    </td>
+  </tr>
 
-Second was humidity. between -40 to 40 latitude there seemed to be a spread from 20 to 100 percent humidity, with most of the spread being above 50%. Above 40 latitude the humidity stayed above 50. This was surprising.
-<img href="https://github.com/emmobley63/Equator-Weather-Vacation/blob/main/Images/Humidity_Latitude_1-18-21.png">
-Third was cloudiness. There was a very even spread across the latitudes.
+  <tr>
+    <td>Second was humidity. between -40 to 40 latitude there seemed to be a spread from 20 to 100 percent humidity, with most of the spread being above 50%. Above 40 latitude the humidity stayed above 50. This was surprising.
+    </td>
+    <td colspan="2">
+      <img src="https://github.com/emmobley63/Equator-Weather-Vacation/blob/main/Images/Humidity_Latitude_1-18-21.png">
+    </td>
 
-Fourth was Wind Speed. This was also a pretty even distribution.
+   <tr>
+     <td>Third was cloudiness. There was a very even spread across the latitudes.
+     </td>
+     <td colspan="2">
+       <img src="https://github.com/emmobley63/Equator-Weather-Vacation/blob/main/Images/Cloudiness_Latitude_1-18-21.png">
+     </td>
+  </tr>
 
-After my initial analysis I decided there might be different relationships for our weather metrics depending on which hemisphere they were. 
+  <tr>
+    <td>Fourth was Wind Speed. This was also a pretty even distribution.
+    </td>
+    <td colspan="2">
+      <img src="https://github.com/emmobley63/Equator-Weather-Vacation/blob/main/Images/WindSpeed_Latitude_1-18-21.png">
+    </td>
+  </tr>
 
-North Temperature v Latitude: As I increased the latitude, the temperature went down. They had a negative correlation of -0.84.
+  <tr>
+    <td colspan="3">After my initial analysis I decided there might be different relationships for our weather metrics depending on which hemisphere they were. Northern hemisphere graphs are pictured in red and the southern in green.</td>
+  </tr>
 
-South Temperature v Latitude: Increases in the latitude caused the temperature to go up. However there was less correlation here: 0.53. The difference in correlation most likely had to do with the tilt and rotation of the Earth during this time of year. At 23.5 degrees off its orbital plane, the Earth receives the Sun's rays differently depending on the time of the year and the hemisphere. During the time of the weather sample, the south receives more direct light and was at less of an angle to the sun. Where the north was angled and sunlight was less and less direct as you go further north.
+  <tr>
+    <td>North Temperature v Latitude: As I increased the latitude, the temperature went down. They had a negative correlation of -0.84. South Temperature v Latitude: Increases in the latitude caused the temperature to go up. However there was less correlation here: 0.53. The difference in correlation most likely had to do with the tilt and rotation of the Earth during this time of year. At 23.5 degrees off its orbital plane, the Earth receives the Sun's rays differently depending on the time of the year and the hemisphere. During the time of the weather sample, the south receives more direct light and was at less of an angle to the sun. Where the north was angled and sunlight was less and less direct as you go further north.
+    </td>
+    <td>
+      <img src="https://github.com/emmobley63/Equator-Weather-Vacation/blob/main/Images/Nothern_Hemisphere_Temperature_Latitude_1-18-21.png">
+    </td>
+    <td>
+      <img src="https://github.com/emmobley63/Equator-Weather-Vacation/blob/main/Images/Southern_Hemisphere_Temperature_Latitude_1-18-21.png">
+    </td>
+  </tr>
 
-North and South Humidity v Latitude: North has a weaker correlation at 0.42 while the south is 0.53. Both seemto increase in humidity as they increase in latitude.
+  <tr>
+    <td>North and South Humidity v Latitude: North has a weaker correlation at 0.42 while the south is 0.53. Both seem to increase in humidity as they increase in latitude.
+    </td>
+    <td>
+      <img src="https://github.com/emmobley63/Equator-Weather-Vacation/blob/main/Images/Nothern_Hemisphere_Humidity_Latitude_1-18-21.png">
+    </td>
+    <td>
+      <img src="https://github.com/emmobley63/Equator-Weather-Vacation/blob/main/Images/Southern_Hemisphere_Humidity_Latitude_1-18-21.png">
+    </td>
+  </tr>
 
-North and South Cloudiness v Latitude: There is very little correlation bewtween these metrics and the latitude. North is 0.15 and South is 0.23.
+  <tr>
+    <td>North and South Cloudiness v Latitude: There is very little correlation bewtween these metrics and the latitude. North is 0.15 and South is 0.23.
+    </td>
+    <td>
+      <img src="https://github.com/emmobley63/Equator-Weather-Vacation/blob/main/Images/Nothern_Hemisphere_Cloudiness_Latitude_1-18-21.png">
+    </td>
+    <td>
+      <img src="https://github.com/emmobley63/Equator-Weather-Vacation/blob/main/Images/Southern_Hemisphere_Cloudiness_Latitude_1-18-21.png">
+    </td>
+  </tr>
 
-North and South Wind Speed v Latitude: There is no correlation in the North with wind speed and latitude. The south has very little correlation at -0.20</p>
+  <tr>
+    <td>North and South Wind Speed v Latitude: There is no correlation in the North with wind speed and latitude. The south has very little correlation at -0.20
+    </td>
+    <td>
+      <img src="https://github.com/emmobley63/Equator-Weather-Vacation/blob/main/Images/Nothern_Hemisphere_WindSpeed_Latitude_1-18-21.png">
+    </td>
+    <td>
+      <img src="https://github.com/emmobley63/Equator-Weather-Vacation/blob/main/Images/Southern_Hemisphere_WindSpeed_Latitude_1-18-21.png">
+    </td>
+  </tr>
+</table>
 <br>
 
  
