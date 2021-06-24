@@ -106,3 +106,5 @@
 <p>I wanted to use our dataset to create a visual representation of humidity using Google's Places API. I created a heat_layer and added it to Google maps figure.
 
 I then thought I could find ideal vacation spots by narrowing down the weather data to my preferred weather. I created an ideal dataframe with temperature less than 100 and more than 75, wind speed at less than 10 mph, cloudiness less than 5%. I left humidity open because we enjoy all humidities. Then I wanted to find a hotel close to our narrowed locations. I quieried Google's nearby searches to find a list of the nearest hotels. I took the first one and added the hotel name and coordinates to the df. Then, I used citipy to grab the city name and country of the hotel to put it into the dataframe. I then placed them along with our heatmap on the google map.</p>
+
+<p>Evan Mobley | <a href="https://www.linkedin.com/in/evanmmobley/">LinkedIn</a> | emmobley63@gmail.com
